@@ -6,5 +6,10 @@ namespace Survival
         {
             InitializeComponent();
         }
+
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            Gold.Text = "123";
+        }
     }
 }
