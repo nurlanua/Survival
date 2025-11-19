@@ -32,11 +32,10 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            HitPoints = new Label();
-            Gold = new Label();
-            Experience = new Label();
-            Level = new Label();
-            btnTest = new Button();
+            lblHitPoints = new Label();
+            lblGold = new Label();
+            lblExperience = new Label();
+            lblLevel = new Label();
             SuspendLayout();
             // 
             // label1
@@ -75,62 +74,51 @@
             label4.TabIndex = 3;
             label4.Text = "Level";
             // 
-            // HitPoints
+            // lblHitPoints
             // 
-            HitPoints.AutoSize = true;
-            HitPoints.Location = new Point(110, 19);
-            HitPoints.Name = "HitPoints";
-            HitPoints.Size = new Size(50, 20);
-            HitPoints.TabIndex = 4;
-            HitPoints.Text = "label5";
+            lblHitPoints.AutoSize = true;
+            lblHitPoints.Location = new Point(110, 19);
+            lblHitPoints.Name = "lblHitPoints";
+            lblHitPoints.Size = new Size(50, 20);
+            lblHitPoints.TabIndex = 4;
+            lblHitPoints.Text = "label5";
             // 
-            // Gold
+            // lblGold
             // 
-            Gold.AutoSize = true;
-            Gold.Location = new Point(110, 46);
-            Gold.Name = "Gold";
-            Gold.Size = new Size(50, 20);
-            Gold.TabIndex = 5;
-            Gold.Text = "label6";
+            lblGold.AutoSize = true;
+            lblGold.Location = new Point(110, 46);
+            lblGold.Name = "lblGold";
+            lblGold.Size = new Size(50, 20);
+            lblGold.TabIndex = 5;
+            lblGold.Text = "label6";
             // 
-            // Experience
+            // lblExperience
             // 
-            Experience.AutoSize = true;
-            Experience.Location = new Point(110, 74);
-            Experience.Name = "Experience";
-            Experience.Size = new Size(50, 20);
-            Experience.TabIndex = 6;
-            Experience.Text = "label7";
+            lblExperience.AutoSize = true;
+            lblExperience.Location = new Point(110, 74);
+            lblExperience.Name = "lblExperience";
+            lblExperience.Size = new Size(50, 20);
+            lblExperience.TabIndex = 6;
+            lblExperience.Text = "label7";
             // 
-            // Level
+            // lblLevel
             // 
-            Level.AutoSize = true;
-            Level.Location = new Point(110, 100);
-            Level.Name = "Level";
-            Level.Size = new Size(50, 20);
-            Level.TabIndex = 7;
-            Level.Text = "label8";
-            // 
-            // btnTest
-            // 
-            btnTest.Location = new Point(223, 207);
-            btnTest.Name = "btnTest";
-            btnTest.Size = new Size(94, 29);
-            btnTest.TabIndex = 8;
-            btnTest.Text = "Test";
-            btnTest.UseVisualStyleBackColor = true;
-            btnTest.Click += btnTest_Click;
+            lblLevel.AutoSize = true;
+            lblLevel.Location = new Point(110, 100);
+            lblLevel.Name = "lblLevel";
+            lblLevel.Size = new Size(50, 20);
+            lblLevel.TabIndex = 7;
+            lblLevel.Text = "label8";
             // 
             // survival
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(717, 643);
-            Controls.Add(btnTest);
-            Controls.Add(Level);
-            Controls.Add(Experience);
-            Controls.Add(Gold);
-            Controls.Add(HitPoints);
+            Controls.Add(lblLevel);
+            Controls.Add(lblExperience);
+            Controls.Add(lblGold);
+            Controls.Add(lblHitPoints);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -147,10 +135,9 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private Label HitPoints;
-        private Label Gold;
-        private Label Experience;
-        private Label Level;
-        private Button btnTest;
+        private Label lblHitPoints;
+        private Label lblGold;
+        private Label lblExperience;
+        private Label lblLevel;
     }
 }
