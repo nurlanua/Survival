@@ -21,6 +21,11 @@ namespace Survival
             lblLevel.Text = _player.Level.ToString();
         }
 
+        private void dgvInventory_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
         private void btnNorth_Click(object sender, EventArgs e)
         {
             MoveTo(_player.CurrentLocation.LocationToNorth);
